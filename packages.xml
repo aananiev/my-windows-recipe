@@ -1,0 +1,46 @@
+<!--
+ administrative shell 
+@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+  -->
+<?xml version="1.0" encoding="utf-8"?>
+  <packages>
+  	<!-- RTE -->
+    <package id="jre8" />
+    <package id="flashplayerplugin" />
+    <!-- Browsers -->
+    <package id="firefox" />
+    <package id="googlechrome"/>
+    <package id="opera" />
+    <package id="vivaldi" />
+    <!-- Dev -->
+    <package id="git.install" />
+    <package id="sourcetree" />
+    <package id="docker" />
+    <package id="jetbrainstoolbox" />
+    <package id="phpstorm" />
+    <package id="heidisql" />
+    <!-- Comms -->
+    <package id="skype" />
+    <package id="pidgin" />
+    <package id="franz " />
+    <!-- Connectivity -->
+    <package id="teamviewer" />
+    <package id="dropbox" /> 
+    <package id="filezilla" />
+    <package id="qbittorrent" />
+    <!-- Other tools -->
+    <package id="7zip.install" />
+    <package id="sublimetext3" />
+    <package id="openoffice" />
+    <package id="jing" />
+    <!-- Protection -->
+    <package id="malwarebytes" />
+    <package id="keepass.install" />
+    <!-- Fun times -->
+    <package id="steam" />
+    <package id="k-litecodecpackmega" />
+    <package id="winamp" />
+    <package id="leagueoflegends" />
+    <package id="battle.net" />
+  </packages>
+</xml>
